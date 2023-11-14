@@ -1,0 +1,267 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+html,body{
+    width: 100%;
+    height: 100%;
+}
+#main{
+    width: 100%;
+}
+#nav{
+    padding: 2vw 10vw;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+}
+#nleft{
+    display: flex;
+    gap: 30px;
+}
+#nav a{
+    color: #000;
+    text-decoration: none;
+    display: inline-block;
+    
+}
+#nav #centeratag{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+#hero{
+    width: 100%;
+    padding: 0 10vw;
+    display: flex;
+    justify-content: space-between;
+   
+}
+#sustain{
+    width: 18vw;
+    margin-top: 10vw;
+   
+}
+#sustext h3,p{
+    margin-bottom: 1vw;
+}
+#susimg{
+    width: 14vw;
+    height: 40vh;
+    
+}
+#susimg img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    
+}
+#ephemeral{
+    width: 15vw;
+    margin-top: 7vw;
+    
+}
+#etext{
+    position: absolute;
+    top: -4rem;
+    left: -2rem;
+}
+#etext h1{
+    font-size: 2.7rem;
+    letter-spacing: -1px;
+    line-height: .9;
+}
+ #ptext {
+    width: 10vw;
+    margin-top: 2vw;
+}
+#eimg{
+    position: relative;
+    width: 20vw;
+    height: 55vh;
+    
+}
+#eimg img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+#galery{
+    width: 15vw;
+    
+}
+#galery{
+    display: flex;
+    gap: 10px;
+}
+#galery a{
+    margin-top: 18vw;
+    opacity: .8;
+    text-decoration: none;
+    color: #000;
+}
+#arrow{
+    width: 3vw;
+    height: 6vh;
+    background-color: #fff;
+    border-radius: 50%;
+    border: 2px solid #595454;
+    margin-top: 17vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#arrow i{
+    font-size: 2.1rem;
+    opacity: .6;
+    top: -50px;
+}
+#motive{
+    width: 100%;
+    padding: 0 10vw;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 2vw;
+
+}
+#motive h3{
+    opacity: .7;
+}
+#motive p{
+    width: 60vw;
+    margin-top: 2vw;
+    display: flex;
+    text-align: end;
+    font-size: 1.4rem;
+    line-height: 1.6;
+    display: inline;
+}
+ #motive span{
+    width: 70px;
+    height: 40px;
+    margin: 0 10px;
+    display: inline-block;
+    margin-bottom: -12px;
+    border-radius: 100px;
+}
+#onespan{
+    background-image: url(./img/bluegirl\ \(1\).jpg);
+    background-position: 0 60%;
+    background-size: cover;
+}
+#twospan{
+    background-image: url(./img/shaljam.jpg);
+    background-position: 0 80%;
+    background-size: cover;
+}
+#threespan{
+    background-image: url(./img/grass.jpg);
+    background-position: center;
+    background-size: cover;
+}
+#synergy{
+    padding: 4vw 10vw;
+    display: flex;
+    justify-content: space-between;
+}
+#syleft{
+    width: 13vw;
+    margin: 0 8vw;
+}
+#syleft h1{
+    margin: 15px 0;
+}
+#syimg{
+    width: 15vw;
+    height: 45vh;
+}
+#syimg img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+#syright{
+  margin-right: 10vw;
+  width: 20vw;
+  display: flex;
+  flex-direction: column;
+  text-align: end;
+}
+#harimg{
+    width: 20vw;
+    height: 60vh;
+}
+#harimg img{
+    width: 100%;
+    height: 100%;
+}
+#syright h1{
+    margin: 20px 0;
+}
+#picture{
+    width: 100vw;
+    display: flex;
+    justify-content: space-between;
+    
+}
+#picimg{
+    width: 45vw;
+    height: 45vh;
+    position: relative;
+  
+}
+#picimg img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: 0 78%;
+    position: absolute;
+}
+#pictext{
+    margin-top: 8vw;
+    margin-right: 30vw;
+    
+}
+#pictext h1{
+    opacity: .6;
+}
+#pictext p{
+    opacity: .8;
+    margin-top: 20px;
+    width: 15vw;
+}
+#video{
+    width: 100vw;
+    height: 90vh;
+    position: relative;
+}
+#video video{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    opacity: 0;
+}
+#future{
+    position: absolute;
+    top: 30%;
+    left: 50%;
+   transform: translate(-50%,50%);
+   background-color: #fff;
+   padding: 1.5vw 2vw;
+   border-radius: 10px;
+}
+#future h3{
+    margin-left: 10px;
+}
+#future button{
+    padding: .8vw 1.1vw;
+    text-transform: capitalize;
+    margin-top: 10px;
+    background-color: #fff;
+    border-radius: 1vw;
+    border: 1px solid #5e5e5e;
+    cursor: pointer;
+}
